@@ -47,10 +47,10 @@ The PPO agent performed **significantly better** in this setup.
 - Training was stopped at **50M steps**, with the **best checkpoint around 40M**.
 
 📈 Training evaluation curves (TensorBoard):  
-![](Pasted%20image%2020250902210444.png)
+![](attachments/Pasted%20image%2020250902210444.png)
 
 🎥 Example gameplay (GIF will be included in repo):  
-![](snake%20demo.gif)
+![](attachments/snake%20demo.gif)
 
 The snake successfully collects apples, but sometimes **traps itself** by building walls around its own body. Future work will focus on solving this problem.
 
