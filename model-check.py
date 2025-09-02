@@ -5,9 +5,9 @@ import pygame
 pygame.init()
 
 env = SnakeEnv()
-env.difficulty = 10
+env.difficulty = 50
 
-model_path = "models\\PPO-11\\best_model\\best_model.zip"
+model_path = "models\\PPO-1\\best_model\\best_model.zip"
 model = PPO.load(model_path)
 
 

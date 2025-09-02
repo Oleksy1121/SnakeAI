@@ -49,7 +49,7 @@ The PPO agent performed **significantly better** in this setup.
 📈 Training evaluation curves (TensorBoard):  
 ![](attachments/Pasted%20image%2020250902210444.png)
 
-🎥 Example gameplay (GIF will be included in repo):  
+🎥 Example gameplay:  
 ![](attachments/snake%20demo.gif)
 
 The snake successfully collects apples, but sometimes **traps itself** by building walls around its own body. Future work will focus on solving this problem.

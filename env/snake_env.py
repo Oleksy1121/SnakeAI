@@ -432,7 +432,7 @@ class SnakeEnv(gym.Env):
         score_font = pygame.font.SysFont(font, size)
         score_surface = score_font.render(f"Score : {self.score}", True, color)
         score_rect = score_surface.get_rect()
-        score_rect.midtop = (self.frame_size_x / 10, 15)
+        score_rect.midtop = (60, 10)
         self.game_window.blit(score_surface, score_rect)
 
     def close(self) -> None:
